@@ -239,3 +239,39 @@
     color: #000;
     background: #fff;
     }
+
+
+
+ /* Start Media */
+    @media (max-width:767px) {
+        .heading {
+            width: 350px;
+        }
+        #app {
+            overflow-x: hidden;
+        }
+        .play-div {
+            top: 55%;
+        }
+        .playing p {
+            font-size: 12px;
+        }
+        .playing img {
+            width: 100px;
+        }
+        .play-div {
+            width: 130%;
+        }
+        .result {
+            padding: 6px 13px;
+            font-size: 14px;
+        }
+        .heading .score::before {
+            right: 0;
+            bottom: -80%;
+            padding: 10px;
+            font-size: 15px;
+            text-align: center;
+        }
+    }
+    /* End Media */
